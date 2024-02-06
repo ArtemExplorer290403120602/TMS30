@@ -15,7 +15,7 @@ public class MainServlet extends HttpServlet {
         ProxyService proxy = new ProxyService();
         proxy.doAction();
 
-        req.setAttribute("message", "Proxy Service called successfully");
+        req.setAttribute("message", "Proxy Service called successfully!");
         req.getRequestDispatcher("proxy.jsp").forward(req, resp);
     }
 }
