@@ -18,6 +18,12 @@
     <form action="shape" method="get" style="margin-left: 10px">
         <button type="submit" class="btn btn-warning">FactoryMethod</button>
     </form>
+    <form action="builder" method="get" style="margin-left: 10px">
+        <button type="submit" class="btn btn-danger">Builder</button>
+    </form>
+    <form action="prototype.jsp"  style="margin-left: 10px">
+        <button type="submit" class="btn btn-dark">Prototype</button>
+    </form>
 </div>
 </body>
 </html>
